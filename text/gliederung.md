@@ -1,7 +1,29 @@
 #Gliederung:
 
+##Anforderungsanalyse:
 
-##Workflow:
+###Organisatorisch
+- 1 Entwickler vs Teams
+- Geografische Distanzen
+
+###Programmatisch
+- Verschiedene JS Frameworks
+- CMS vs. static content
+- Sass vs. Css
+- Minifizierung zu Rechen und Speicheroptimierung
+- Fehlerüberprüfung
+- Unittesting
+- Versionierung
+- Datenbanken
+- modulare Komponenten, die einfach geupdated und installiert werden können
+- Rollbacks ermöglichen
+
+###Kundenorientierung
+- Unterschiedliche Previewumgebungen
+- Agilesoftware Entwicklung für präsentierbare Prototypen (Agile Manifesto)
+
+
+##IST-Analyse des Workflows:
 
 ###Aufsetzen eines Projektes:
 - Anlegen git Repo
@@ -17,41 +39,63 @@
 - watch prozesse
 - Präprozessoren
 - Minifizierung Javascript, uglify und co
+- Prefixing
 - Bildanpassungen
 - Fehlertesting
 - Livetesting
 
 ###Deployment:
 - Build Prozess
+- Testing
 - Copy files via ftp/sftp to server
 - Database deployment
 	- Database diff (UUID)
 	- Database upload
 - Testing, Staging, Production  
 
-##Anforderungsanalyse:
+###Continous Integration:
+- Beschreibung
+- Grund
+- Verschiedene Buildarten
 
-###Organisatorisch
-- 1 Entwickler vs Teams
-- Geografische Distanzen
 
-###Programmatisch
-- JS/Ajax
-- CMS vs. static content
-- Sass vs. Css
-- Minifizierung zu Rechen und Speicheroptimierung
-- Fehlerüberprüfung
-- Unittesting
-- Versionierung
-- Datenbankdeployment
-- modulare Komponenten, die einfach geupdated und installiert werden können
-- Rollbacks ermöglichen
+##Unterstützende-Tools
 
-###Kundenorientierung
-- Unterschiedliche Previewumgebungen
-- Agilesoftware Entwicklung für präsentierbare Prototypen
+###Aufsetzen:
+- Versionierung: git,svn,mercurial
+- Datenbank: mySQL
+- Package manager: npm, bower, composer
 
-##IST-Situation
+###During development:
+- Automatisierung: Grunt, Gulp, Codekit
+
+###Deployment:
+- Gulp, Grunt
+- Database diff
+
+###Continous Integration/Continous Delivery /- Deployment:
+- Jenkins
+- Apache Continuum
+- TeamCity
+- Travis CI
+
+##Toolauswahl und -verknüpfung
+- Ausgewählte Tools / Begründung
+- Verknüpfung der Tools zu Gesamtsystem (Skizze)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

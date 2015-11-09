@@ -18,6 +18,11 @@ Wie kann der Workflow moderner Webprojekte durch den Einsatz einer Toolchain unt
 
 
 
+
+
+
+
+
 W-Fragen:
 Wie sieht der Workflow in einem Webprojekt aus?
 Welche einzelnen Schritte müssen durchlaufen werden?

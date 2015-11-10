@@ -39,15 +39,15 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 
 ##Gliederung (detail):
 
-###<a name="1"></a>Anforderungsanalyse:
+###<a name="1"></a>1. Anforderungsanalyse:
 
-####<a name="1.1"></a>Organisatorisch
+####<a name="1.1"></a>1.1 Organisatorisch
 - Einzelner Entwickler vs Team
 - Geografische und zeitliche Distanzen zwischen Teammitgliedern
 - Agile software Entwicklung f&uuml;r pr&auml;sentierbare Prototypen (Agile Manifesto)
     Feature Driven Development/Scrum
 
-####<a name="1.2"></a>Programmatisch
+####<a name="1.2"></a>1.2 Programmatisch
 - CMS vs. static content
 - JS Frameworks vs. plain JS
 - Sass/Less vs. Css
@@ -56,7 +56,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 - Rollbacks erm&ouml;glichen
 - Durch Kundenorientierung bedingt: Unterschiedliche Previewumgebungen
 
-####<a name="1.3"></a>Qualitativ
+####<a name="1.3"></a>1.3 Qualitativ
 - Fehler&uuml;berpr&uuml;fung
 - Versionierung
 - Unittesting
@@ -64,9 +64,9 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 - Modularit&auml;t und Wartbarkeit
  
 
-###<a name="2"></a>IST-Analyse des Entwicklungsworkflows:
+###<a name="2"></a>2. IST-Analyse des Entwicklungsworkflows:
 
-####<a name="2.1"></a>Projekterstellung:
+####<a name="2.1"></a>2.1 Projekterstellung:
 - Anlegen git Repo
 - Anlegen DB
 - Selecting CMS
@@ -76,7 +76,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 - Setup local server
 - Git push initial commit
 
-####<a name="2.2"></a>Development:
+####<a name="2.2"></a>2.2 Development:
 - watch Prozesse
 - Pr&auml;prozessoren
 - Minifizierung/Vernk&uuml;pfen von Javascript durch Concat, Uglify und co
@@ -85,7 +85,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 - Fehler&uuml;erpr&uuml;ung
 - Livetesting
 
-####<a name="2.3"></a>Deployment:
+####<a name="2.3"></a>2.3 Deployment:
 - Build Prozess
 - Testing
 - Deployment auf Testing, Staging, Production  
@@ -93,20 +93,20 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 	- Database diff (UUID)
 	- Database upload
 
-###<a name="3"></a>Tools zur unterst&uuml;tzung des Workflows
+###<a name="3"></a>3. Tools zur unterst&uuml;tzung des Workflows
 
-####<a name="3.1"></a>Organisatorisch:
+####<a name="3.1"></a>3.1 Organisatorisch:
 - Versionierung f&uuml;r shared Code: git,svn,mercurial
 
-####<a name="3.2"></a>Programmatisch
+####<a name="3.2"></a>3.2 Programmatisch
 - Package manager: npm, bower, composer
 - Automatisierung: Grunt, Gulp, Codekit
 - Database diff: liquidbase
 
-####<a name="3.3"></a>Qualitativ
+####<a name="3.3"></a>3.3 Qualitativ
 - Testing: Grunt, Gulp, Codekit
 
-###<a name="4"></a>Continuous Integration/ -Delivery / -Deployment:
+###<a name="4"></a>4. Continuous Integration/ -Delivery / -Deployment:
 - Beschreibung
 - Vor- und Nachteile
 - Verschiedene Buildarten
@@ -116,19 +116,19 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
     - TeamCity
     - Travis CI
 
-###<a name="5"></a>Erstellung und Dokumentation einer unterst&uuml;tzenden Toolchain
+###<a name="5"></a>5. Erstellung und Dokumentation einer unterst&uuml;tzenden Toolchain
 - Zielsetzung / Featurelist
 - Toolauswahl + Begr&uuml;ndung
 - Architektur Gesamtsystem
 - Konfigurationsbeschreibung Einzelkomponenten
 - Funktionsweise / Bedienung
 
-###<a name="6"></a>Anwendung der Toolchain in der Praxis
+###<a name="6"></a>6. Anwendung der Toolchain in der Praxis
 - Projektbeschreibung
 - Definition der Bewertungskriterien
 - Bewertung der Toolchain
 
-###<a name="7"></a>Ausblick
+###<a name="7"></a>7. Ausblick
 
 
 

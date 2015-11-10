@@ -1,22 +1,22 @@
 #Literaturrecherche
 
 ##Suchbegriffe:
-Continuous Integration
-Continuous Deployment
-Continuous Delivery
-Agile Softwareentwicklung
-Agile Development
-Webentwicklung
-Webdevelopment
-Versionierung
-Datenbank deployment
-Database deployment
-Git
-Grunt
-Jenkins
-Apache Continuum
-TeamCity
-Travis CI
+- Continuous Integration
+- Continuous Deployment
+- Continuous Delivery
+- Agile Softwareentwicklung
+- Agile Development
+- Webentwicklung
+- Webdevelopment
+- Versionierung
+- Datenbank deployment
+- Database deployment
+- Git
+- Grunt
+- Jenkins
+- Apache Continuum
+- TeamCity
+- Travis CI
 
 ##Quellen:
 - [x] HdM Bib

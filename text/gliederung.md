@@ -1,31 +1,53 @@
-#Gliederung:
+#Inhalt:
+1. [Anforderungsanalyse moderner Webprojekte](#1)
+    - [Organisatorisch](#1.1)
+    - [Programmatisch](#1.2)
+    - [Inhaltlich](#1.3)
+    - [Kundenorientierung](#1.4)
+    - [Qualitativ](#1.5)
+2. [IST-Workflow](#2)
+3. [Tools zur Unterst&uuml;tzung des Workflows (Vor- und Nachteile)](#3)
+4. [Auswahl bestimmter Tools f&uuml;r eine Toolchain](#4)
+5. [Erstellung und Dokumentation der Toolchain](#5)
+6. [Erstellung eines Projektes mit der Toolchain -> Evaluation](#6)
+7. [Ausblick](#7)
 
-##Anforderungsanalyse:
 
-###Organisatorisch
-- 1 Entwickler vs Teams
+#Gliederung (detail):
+
+##<a name="1"></a>Anforderungsanalyse:
+
+###<a name="1.1"></a>Organisatorisch
+- 1 Entwickler vs Team
 - Geografische Distanzen
+- Agile software Entwicklung f&uuml;r pr&auml;sentierbare Prototypen (Agile Manifesto)
+    Feature Driven Development/Scrum
 
-###Programmatisch
+###<a name="1.2"></a>Programmatisch
 - Verschiedene JS Frameworks
-- CMS vs. static content
 - Sass vs. Css
 - Minifizierung zu Rechen und Speicheroptimierung
-- Fehlerüberprüfung
+- Fehler&uuml;berpr&uuml;fung
 - Unittesting
 - Versionierung
 - Datenbanken
-- modulare Komponenten, die einfach geupdated und installiert werden können
-- Rollbacks ermöglichen
+- modulare Komponenten, die einfach geupdated und installiert werden k&ouml;nnen
+- Rollbacks erm&ouml;glichen
 
-###Kundenorientierung
+###<a name="1.3"></a>Inhaltlich
+- CMS vs. static content
+
+###<a name="1.4"></a>Kundenorientierung
 - Unterschiedliche Previewumgebungen
-- Agilesoftware Entwicklung für präsentierbare Prototypen (Agile Manifesto)
 
+###<a name="1.5"></a>Qualitative
+- nachhaltiger Code
+- Modularit&auml;t und Wartbarkeit
+ 
 
-##IST-Analyse des Workflows:
+##<a name="2"></a>IST-Analyse des Workflows:
 
-###Aufsetzen eines Projektes:
+###<a name="2.1"></a>Aufsetzen eines Projektes:
 - Anlegen git Repo
 - Anlegen DB
 - Selecting CMS
@@ -35,16 +57,16 @@
 - Setup local server
 - Git push initial commit
 
-###During development:
+###<a name="2.2"></a>During development:
 - watch prozesse
-- Präprozessoren
+- Pr&auml;prozessoren
 - Minifizierung Javascript, uglify und co
 - Prefixing
 - Bildanpassungen
 - Fehlertesting
 - Livetesting
 
-###Deployment:
+###<a name="2.3"></a>Deployment:
 - Build Prozess
 - Testing
 - Copy files via ftp/sftp to server
@@ -53,35 +75,49 @@
 	- Database upload
 - Testing, Staging, Production  
 
-###Continous Integration:
+###<a name="2.4"></a>Continous Integration:
 - Beschreibung
 - Grund
 - Verschiedene Buildarten
 
 
-##Unterstützende-Tools
+##<a name="3"></a>Unterst&uuml;tzende-Tools
 
-###Aufsetzen:
+###<a name="3.1"></a>Aufsetzen:
 - Versionierung: git,svn,mercurial
 - Datenbank: mySQL
 - Package manager: npm, bower, composer
 
-###During development:
+###<a name="3.2"></a>During development:
 - Automatisierung: Grunt, Gulp, Codekit
 
-###Deployment:
-- Gulp, Grunt
-- Database diff
-
-###Continous Integration/Continous Delivery /- Deployment:
+###<a name="3.3"></a>Continous Integration/Continous Delivery /- Deployment:
 - Jenkins
 - Apache Continuum
 - TeamCity
 - Travis CI
 
-##Toolauswahl und -verknüpfung
-- Ausgewählte Tools / Begründung
-- Verknüpfung der Tools zu Gesamtsystem (Skizze)
+###<a name="3.4"></a>Deployment:
+- Gulp, Grunt
+- Database diff
+
+##<a name="4"></a>Toolauswahl und -verkn&uuml;pfung
+- Ausgew&auml;hlte Tools / Begr&uuml;ndung
+- Verkn&uuml;pfung der Tools zu Gesamtsystem (Skizze)
+
+
+##<a name="5"></a>Erstellung und Dokumentation der Toolchain
+- Zielsetzung
+- Projektplan
+- Beschreibung der Konfiguration der Einzelkomponenten
+- Beschreibung des Zusammenwirkens
+
+##<a name="6"></a>Evaluation der Toolchain anhand eines Webprojektes
+- Projektbeschreibung
+- Definition der Bewertungskriterien
+- Bewertung der Toolchain
+
+##<a name="7"></a>Ausblick
 
 
 

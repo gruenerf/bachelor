@@ -2,12 +2,30 @@
 1. [Anforderungsanalyse moderner Webprojekte](#1)
     - [Organisatorisch](#1.1)
     - [Programmatisch](#1.2)
-    - [Qualitativ](#1.53)
-2. [IST-Workflow](#2)
+    - [Qualitativ](#1.3)
+2. [IST-Analyse des Entwicklungsworkflows](#2)
+    - [Projekterstellung](#2.1)
+    - [Development](#2.2)
+    - [Deployment](#2.3)
 3. [Tools zur Unterst&uuml;tzung des Workflows (Vor- und Nachteile)](#3)
-4. [Auswahl bestimmter Tools f&uuml;r eine Toolchain](#4)
+    - [Organisatorisch](#3.1)
+    - [Programmatisch](#3.2)
+    - [Qualitativ](#3.3)
+4. [Continuous Integration/ -Delivery / -Deployment](#4)
+    - Beschreibung
+    - Vor- und Nachteile
+    - Verschiedene Buildarten
+    - Tools
 5. [Erstellung und Dokumentation der Toolchain](#5)
-6. [Erstellung eines Projektes mit der Toolchain -> Evaluation](#6)
+    - Zielsetzung / Featurelist
+    - Toolauswahl + Begr&uuml;dung
+    - Architektur Gesamtsystem
+    - Konfigurationsbeschreibung Einzelkomponenten
+    - Funktionsweise / Bedienung
+6. [Anwendung der Toolchain in der Praxis -> Evaluation](#6)
+    - Projektbeschreibung
+    - Definition der Bewertungskriterien
+    - Bewertung der Toolchain
 7. [Ausblick](#7)
 
 
@@ -16,19 +34,19 @@
 ##<a name="1"></a>Anforderungsanalyse:
 
 ###<a name="1.1"></a>Organisatorisch
-- 1 Entwickler vs Team
-- Geografische Distanzen
+- Einzelner Entwickler vs Team
+- Geografische und zeitliche Distanzen zwischen Teammitgliedern
 - Agile software Entwicklung f&uuml;r pr&auml;sentierbare Prototypen (Agile Manifesto)
     Feature Driven Development/Scrum
-- Durch Kundernorientierung bedingt: Unterschiedliche Previewumgebungen
 
 ###<a name="1.2"></a>Programmatisch
 - CMS vs. static content
-- Verschiedene JS Frameworks
-- Sass vs. Css
-- Minifizierung zu Rechen und Speicheroptimierung
+- JS Frameworks vs. plain JS
+- Sass/Less vs. Css
+- Minifizierung zu Rechen- und Speicheroptimierung
 - Datenbanken
 - Rollbacks erm&ouml;glichen
+- Durch Kundenorientierung bedingt: Unterschiedliche Previewumgebungen
 
 ###<a name="1.3"></a>Qualitativ
 - Fehler&uuml;berpr&uuml;fung
@@ -38,74 +56,66 @@
 - Modularit&auml;t und Wartbarkeit
  
 
-##<a name="2"></a>IST-Analyse des Workflows:
+##<a name="2"></a>IST-Analyse des Entwicklungsworkflows:
 
-###<a name="2.1"></a>Aufsetzen eines Projektes:
+###<a name="2.1"></a>Projekterstellung:
 - Anlegen git Repo
 - Anlegen DB
 - Selecting CMS
-- Downloading necessary data
-- Editing config -> add database name
-- Run setup to install the cms
+- Download der n&ouml;tigen Packages
+- Editieren der config -> Datenbankzugangsdaten
+- Run Setup um das CMS zu installieren
 - Setup local server
 - Git push initial commit
 
-###<a name="2.2"></a>During development:
-- watch prozesse
+###<a name="2.2"></a>Development:
+- watch Prozesse
 - Pr&auml;prozessoren
-- Minifizierung Javascript, uglify und co
-- Prefixing
+- Minifizierung/Vernk&uuml;pfen von Javascript durch Concat, Uglify und co
+- CSS-Prefixing
 - Bildanpassungen
-- Fehlertesting
+- Fehler&uuml;erpr&uuml;ung
 - Livetesting
 
 ###<a name="2.3"></a>Deployment:
 - Build Prozess
 - Testing
-- Copy files via ftp/sftp to server
+- Deployment auf Testing, Staging, Production  
 - Database deployment
 	- Database diff (UUID)
 	- Database upload
-- Testing, Staging, Production  
 
-###<a name="2.4"></a>Continous Integration:
-- Beschreibung
-- Grund
-- Verschiedene Buildarten
+##<a name="3"></a>Tools zur unterst&uuml;tzung des Workflows
 
+###<a name="3.1"></a>Organisatorisch:
+- Versionierung f&uuml;r shared Code: git,svn,mercurial
 
-##<a name="3"></a>Unterst&uuml;tzende-Tools
-
-###<a name="3.1"></a>Aufsetzen:
-- Versionierung: git,svn,mercurial
-- Datenbank: mySQL
+###<a name="3.2"></a>Programmatisch
 - Package manager: npm, bower, composer
-
-###<a name="3.2"></a>During development:
 - Automatisierung: Grunt, Gulp, Codekit
+- Database diff: liquidbase
 
-###<a name="3.3"></a>Continous Integration/Continous Delivery /- Deployment:
-- Jenkins
-- Apache Continuum
-- TeamCity
-- Travis CI
+###<a name="3.3"></a>Qualitativ
+- Testing: Grunt, Gulp, Codekit
 
-###<a name="3.4"></a>Deployment:
-- Gulp, Grunt
-- Database diff
+##<a name="4"></a>Continuous Integration/ -Delivery / -Deployment:
+- Beschreibung
+- Vor- und Nachteile
+- Verschiedene Buildarten
+- Tools:
+    - Jenkins
+    - Apache Continuum
+    - TeamCity
+    - Travis CI
 
-##<a name="4"></a>Toolauswahl und -verkn&uuml;pfung
-- Ausgew&auml;hlte Tools / Begr&uuml;ndung
-- Verkn&uuml;pfung der Tools zu Gesamtsystem (Skizze)
+##<a name="5"></a>Erstellung und Dokumentation einer unterst&uuml;tzenden Toolchain
+- Zielsetzung / Featurelist
+- Toolauswahl + Begr&uuml;ndung
+- Architektur Gesamtsystem
+- Konfigurationsbeschreibung Einzelkomponenten
+- Funktionsweise / Bedienung
 
-
-##<a name="5"></a>Erstellung und Dokumentation der Toolchain
-- Zielsetzung
-- Projektplan
-- Beschreibung der Konfiguration der Einzelkomponenten
-- Beschreibung des Zusammenwirkens
-
-##<a name="6"></a>Evaluation der Toolchain anhand eines Webprojektes
+##<a name="6"></a>Anwendung der Toolchain in der Praxis
 - Projektbeschreibung
 - Definition der Bewertungskriterien
 - Bewertung der Toolchain

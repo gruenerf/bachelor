@@ -1,9 +1,3 @@
-#Arbeitstitel:
-Anforderungsanalyse moderner PHP-basierter Webprojekte und die Erstellung einer auf diesen Anforderungen basierenden Toolchain zur Unterstützung des Entwicklungsworkflows
-
-#Fragestellung:
-Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten gezielt unterstützt und begleitet werden?
-
 #W-Fragen:
 Wie sieht der Workflow in einem Webprojekt aus?
 Welche organisatorischen Strukturen fordern Webprojekte?

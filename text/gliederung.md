@@ -2,7 +2,7 @@
 1. [Anforderungsanalyse moderner Webprojekte](#1)
     - [Organisatorisch](#1.1)
     - [Programmatisch](#1.2)
-    - [Softwarequalität](#1.53)
+    - [Qualitativ](#1.53)
 2. [IST-Workflow](#2)
 3. [Tools zur Unterst&uuml;tzung des Workflows (Vor- und Nachteile)](#3)
 4. [Auswahl bestimmter Tools f&uuml;r eine Toolchain](#4)
@@ -30,7 +30,7 @@
 - Datenbanken
 - Rollbacks erm&ouml;glichen
 
-###<a name="1.3"></a>Softwarequalität
+###<a name="1.3"></a>Qualitativ
 - Fehler&uuml;berpr&uuml;fung
 - Versionierung
 - Unittesting

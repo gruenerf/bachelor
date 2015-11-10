@@ -2,9 +2,7 @@
 1. [Anforderungsanalyse moderner Webprojekte](#1)
     - [Organisatorisch](#1.1)
     - [Programmatisch](#1.2)
-    - [Inhaltlich](#1.3)
-    - [Kundenorientierung](#1.4)
-    - [Qualitativ](#1.5)
+    - [Softwarequalität](#1.53)
 2. [IST-Workflow](#2)
 3. [Tools zur Unterst&uuml;tzung des Workflows (Vor- und Nachteile)](#3)
 4. [Auswahl bestimmter Tools f&uuml;r eine Toolchain](#4)
@@ -22,25 +20,20 @@
 - Geografische Distanzen
 - Agile software Entwicklung f&uuml;r pr&auml;sentierbare Prototypen (Agile Manifesto)
     Feature Driven Development/Scrum
+- Durch Kundernorientierung bedingt: Unterschiedliche Previewumgebungen
 
 ###<a name="1.2"></a>Programmatisch
+- CMS vs. static content
 - Verschiedene JS Frameworks
 - Sass vs. Css
 - Minifizierung zu Rechen und Speicheroptimierung
-- Fehler&uuml;berpr&uuml;fung
-- Unittesting
-- Versionierung
 - Datenbanken
-- modulare Komponenten, die einfach geupdated und installiert werden k&ouml;nnen
 - Rollbacks erm&ouml;glichen
 
-###<a name="1.3"></a>Inhaltlich
-- CMS vs. static content
-
-###<a name="1.4"></a>Kundenorientierung
-- Unterschiedliche Previewumgebungen
-
-###<a name="1.5"></a>Qualitative
+###<a name="1.3"></a>Softwarequalität
+- Fehler&uuml;berpr&uuml;fung
+- Versionierung
+- Unittesting
 - nachhaltiger Code
 - Modularit&auml;t und Wartbarkeit
  

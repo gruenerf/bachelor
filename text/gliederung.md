@@ -106,11 +106,19 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 ####<a name="3.3"></a>3.3 Qualitativ
 - Linting: Grunt, Gulp, Codekit
 - Testing: 
-    - Cross-Browsertesting: Browserstack, saucelabs
-    - UnitTesting: 
-        -JS: Mocha, Jasmine, PhantomJS
-        -PHP: PHPUnit, Codeception
-    - End-to-End: Protractor
+    - Cross-Browser-Testing: 
+        - Browserstack
+        - Saucelabs
+    - Unit-Testing: 
+        - JS: 
+            - Mocha
+            - Jasmine
+            - PhantomJS
+        - PHP: 
+            - PHPUnit 
+            - Codeception
+    - End-to-End-Testing: 
+        - Protractor
 
 ###<a name="4"></a>4. DevOps: Continuous Integration/ -Delivery / -Deployment:
 - Beschreibung

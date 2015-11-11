@@ -59,7 +59,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 ####<a name="1.3"></a>1.3 Qualitativ
 - Fehler&uuml;berpr&uuml;fung
 - Versionierung
-- Unittesting
+- Testing (Cross-Browsertesting, UnitTesting, End-to-End) 
 - nachhaltiger Code
 - Modularit&auml;t und Wartbarkeit
  
@@ -82,36 +82,42 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 - Minifizierung/Vernk&uuml;pfen von Javascript durch Concat, Uglify und co
 - CSS-Prefixing
 - Bildanpassungen
-- Fehler&uuml;erpr&uuml;ung
+- Fehler&uuml;berpr&uuml;fung
 - Livetesting
 
 ####<a name="2.3"></a>2.3 Deployment:
 - Build Prozess
 - Testing
 - Deployment auf Testing, Staging, Production  
-- Database deployment
-	- Database diff (UUID)
+- Database Migration
+	- Datenbank-diff (UUID)
 	- Database upload
 
 ###<a name="3"></a>3. Tools zur unterst&uuml;tzung des Workflows
 
 ####<a name="3.1"></a>3.1 Organisatorisch:
-- Versionierung f&uuml;r shared Code: git,svn,mercurial
+- Code-Versionierung: git,svn,mercurial
 
 ####<a name="3.2"></a>3.2 Programmatisch
 - Package manager: npm, bower, composer
 - Automatisierung: Grunt, Gulp, Codekit
-- Database diff: liquidbase
+- Datenbank-Migration: liquidbase
 
 ####<a name="3.3"></a>3.3 Qualitativ
-- Testing: Grunt, Gulp, Codekit
+- Linting: Grunt, Gulp, Codekit
+- Testing: 
+    - Cross-Browsertesting: Browserstack, saucelabs
+    - UnitTesting: 
+        -JS: Mocha, Jasmine, PhantomJS
+        -PHP: PHPUnit, Codeception
+    - End-to-End: Protractor
 
-###<a name="4"></a>4. Continuous Integration/ -Delivery / -Deployment:
+###<a name="4"></a>4. DevOps: Continuous Integration/ -Delivery / -Deployment:
 - Beschreibung
 - Vor- und Nachteile
 - Verschiedene Buildarten
 - Tools:
-    - Jenkins
+    - Jenkins 
     - Apache Continuum
     - TeamCity
     - Travis CI

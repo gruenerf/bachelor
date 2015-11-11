@@ -1,10 +1,10 @@
 #Bachelorthesis
 
 ##Arbeitstitel:
-Anforderungsanalyse moderner PHP-basierter Webprojekte und die Erstellung einer auf diesen Anforderungen basierenden Toolchain zur Unterstützung des Entwicklungsworkflows
+Anforderungsanalyse moderner PHP-basierter Webprojekte und die Erstellung einer auf diesen Anforderungen basierenden Toolchain zur Unterst&uuml;tzung des Entwicklungsworkflows
 
 ##Fragestellung:
-Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten gezielt unterstützt und begleitet werden?
+Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten gezielt unterst&uuml;tzt und begleitet werden?
 
 ##Inhalt:
 1. [Anforderungsanalyse moderner Webprojekte](#1)

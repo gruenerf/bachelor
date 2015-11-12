@@ -8,9 +8,10 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 
 ##Inhalt:
 1. [Anforderungsanalyse moderner Webprojekte](#1)
-    - [Organisatorisch](#1.1)
-    - [Programmatisch](#1.2)
-    - [Qualitativ](#1.3)
+    - [Projektarten](#1.1)
+    - [Organisatorisch](#1.2)
+    - [Programmatisch](#1.3)
+    - [Qualitativ](#1.4)
 2. [IST-Analyse des Entwicklungsworkflows](#2)
     - [Projekterstellung](#2.1)
     - [Development](#2.2)
@@ -41,13 +42,19 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 
 ###<a name="1"></a>1. Anforderungsanalyse:
 
-####<a name="1.1"></a>1.1 Organisatorisch
+####<a name="1.1">1.1 Projektarten: 
+- Frontend
+- Backend
+- Backend (CMS) + Frontend
+- Backend (Framework) + Frontend
+
+####<a name="1.2"></a>1.2 Organisatorische Anforderungen
 - Einzelner Entwickler vs Team
 - Geografische und zeitliche Distanzen zwischen Teammitgliedern
 - Agile software Entwicklung f&uuml;r pr&auml;sentierbare Prototypen (Agile Manifesto)
     Feature Driven Development/Scrum
 
-####<a name="1.2"></a>1.2 Programmatisch
+####<a name="1.3"></a>1.3 Programmatische Anforderungen
 - CMS vs. static content
 - JS Frameworks vs. plain JS
 - Sass/Less vs. Css
@@ -56,7 +63,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 - Rollbacks erm&ouml;glichen
 - Durch Kundenorientierung bedingt: Unterschiedliche Previewumgebungen
 
-####<a name="1.3"></a>1.3 Qualitativ
+####<a name="1.4"></a>1.4 Qualitative Anforderungen
 - Fehler&uuml;berpr&uuml;fung
 - Versionierung
 - Testing (Cross-Browsertesting, UnitTesting, End-to-End) 
@@ -67,9 +74,9 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 ###<a name="2"></a>2. IST-Analyse des Entwicklungsworkflows:
 
 ####<a name="2.1"></a>2.1 Projekterstellung:
-- Anlegen git Repo
+- Initialisieren der Versionierung
 - Anlegen DB
-- Selecting CMS
+- Auswahl des CMS
 - Download der n&ouml;tigen Packages
 - Editieren der config -> Datenbankzugangsdaten
 - Run Setup um das CMS zu installieren
@@ -93,7 +100,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 	- Datenbank-diff (UUID)
 	- Database upload
 
-###<a name="3"></a>3. Tools zur unterst&uuml;tzung des Workflows
+###<a name="3"></a>3. Tools zur Unterst&uuml;tzung des Workflows
 
 ####<a name="3.1"></a>3.1 Organisatorisch:
 - Code-Versionierung: git,svn,mercurial
@@ -113,12 +120,12 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
         - JS: 
             - Mocha
             - Jasmine
-            - PhantomJS
         - PHP: 
             - PHPUnit 
             - Codeception
     - End-to-End-Testing: 
         - Protractor
+        - PhantomJS
 
 ###<a name="4"></a>4. DevOps: Continuous Integration/ -Delivery / -Deployment:
 - Beschreibung

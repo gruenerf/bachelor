@@ -20,7 +20,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
     - [Organisatorisch](#3.1)
     - [Programmatisch](#3.2)
     - [Qualitativ](#3.3)
-4. [Continuous Integration/ -Delivery / -Deployment](#4)
+4. [DevOps: Continuous Integration/ -Delivery / -Deployment](#4)
     - Beschreibung
     - Vor- und Nachteile
     - Verschiedene Buildarten
@@ -42,7 +42,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 
 ###<a name="1"></a>1. Anforderungsanalyse:
 
-####<a name="1.1">1.1 Projektarten: 
+####<a name="1.1"></a>1.1 Projektarten: 
 - Frontend
 - Backend
 - Backend (CMS) + Frontend

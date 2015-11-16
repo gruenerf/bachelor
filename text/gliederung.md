@@ -70,7 +70,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 - nachhaltiger Code
 - Modularit&auml;t und Wartbarkeit
  
-###<a name="2"></a>2. Tools zur Unterst&uuml;tzung des Workflows
+###<a name="2"></a>2. Tools die beim Erf&uuml;llen der Anforderungen helfen
 
 ####<a name="2.2"></a>2.1 Programmatisch
 - Package manager: npm, bower, composer

@@ -12,30 +12,30 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
     - [Organisatorisch](#1.2)
     - [Programmatisch](#1.3)
     - [Qualitativ](#1.4)
-2. [IST-Analyse des Entwicklungsworkflows](#2)
-    - [Projekterstellung](#2.1)
-    - [Development](#2.2)
-    - [Deployment](#2.3)
-3. [Tools zur Unterst&uuml;tzung des Workflows (Vor- und Nachteile)](#3)
-    - [Organisatorisch](#3.1)
-    - [Programmatisch](#3.2)
-    - [Qualitativ](#3.3)
-4. [DevOps: Continuous Integration/ -Delivery / -Deployment](#4)
+2. [Tools zur Unterst&uuml;tzung des Workflows (Vor- und Nachteile)](#2)
+    - [Programmatisch](#2.1)
+    - [Qualitativ](#2.2)
+    - [Organisatorisch](#2.3)
+3. [DevOps: Continuous Integration/ -Delivery / -Deployment](#3)
     - Beschreibung
     - Vor- und Nachteile
     - Verschiedene Buildarten
     - Tools
-5. [Erstellung und Dokumentation der Toolchain](#5)
+4. [Erstellung und Dokumentation der Toolchain](#4)
+    - [IST-Analyse des Entwicklungsworkflows](#4.1)
+        - [Projekterstellung](#4.1.1)
+        - [Development](#4.1.2)
+        - [Deployment](#4.1.3)
     - Zielsetzung / Featurelist
     - Toolauswahl + Begr&uuml;dung
     - Architektur Gesamtsystem
     - Konfigurationsbeschreibung Einzelkomponenten
     - Funktionsweise / Bedienung
-6. [Anwendung der Toolchain in der Praxis -> Evaluation](#6)
+5. [Anwendung der Toolchain in der Praxis -> Evaluation](#5)
     - Projektbeschreibung
     - Definition der Bewertungskriterien
     - Bewertung der Toolchain
-7. [Ausblick](#7)
+6. [Ausblick](#6)
 
 
 ##Gliederung (detail):
@@ -70,47 +70,14 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 - nachhaltiger Code
 - Modularit&auml;t und Wartbarkeit
  
+###<a name="2"></a>2. Tools zur Unterst&uuml;tzung des Workflows
 
-###<a name="2"></a>2. IST-Analyse des Entwicklungsworkflows:
-
-####<a name="2.1"></a>2.1 Projekterstellung:
-- Initialisieren der Versionierung
-- Anlegen DB
-- Auswahl des CMS
-- Download der n&ouml;tigen Packages
-- Editieren der config -> Datenbankzugangsdaten
-- Run Setup um das CMS zu installieren
-- Setup local server
-- Git push initial commit
-
-####<a name="2.2"></a>2.2 Development:
-- watch Prozesse
-- Pr&auml;prozessoren
-- Minifizierung/Vernk&uuml;pfen von Javascript durch Concat, Uglify und co
-- CSS-Prefixing
-- Bildanpassungen
-- Fehler&uuml;berpr&uuml;fung
-- Livetesting
-
-####<a name="2.3"></a>2.3 Deployment:
-- Build Prozess
-- Testing
-- Deployment auf Testing, Staging, Production  
-- Database Migration
-	- Datenbank-diff (UUID)
-	- Database upload
-
-###<a name="3"></a>3. Tools zur Unterst&uuml;tzung des Workflows
-
-####<a name="3.1"></a>3.1 Organisatorisch:
-- Code-Versionierung: git,svn,mercurial
-
-####<a name="3.2"></a>3.2 Programmatisch
+####<a name="2.2"></a>2.1 Programmatisch
 - Package manager: npm, bower, composer
 - Automatisierung: Grunt, Gulp, Codekit
 - Datenbank-Migration: liquidbase
 
-####<a name="3.3"></a>3.3 Qualitativ
+####<a name="2.2"></a>2.2 Qualitativ
 - Linting: Grunt, Gulp, Codekit
 - Testing: 
     - Cross-Browser-Testing: 
@@ -126,8 +93,11 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
     - End-to-End-Testing: 
         - Protractor
         - PhantomJS
+        
+####<a name="2.3"></a>2.3 Organisatorisch:  
+- Code-Versionierung: git,svn,mercurial     
 
-###<a name="4"></a>4. DevOps: Continuous Integration/ -Delivery / -Deployment:
+###<a name="3"></a>3. DevOps: Continuous Integration/ -Delivery / -Deployment:
 - Beschreibung
 - Vor- und Nachteile
 - Verschiedene Buildarten
@@ -137,19 +107,48 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
     - TeamCity
     - Travis CI
 
-###<a name="5"></a>5. Erstellung und Dokumentation einer unterst&uuml;tzenden Toolchain
+###<a name="4"></a>4. Erstellung und Dokumentation einer unterst&uuml;tzenden Toolchain
+####<a name="4.1"></a>4.1 IST-Analyse des Entwicklungsworkflows:
+
+- ####<a name="4.1.1"></a>4.1.1 Projekterstellung:
+    - Initialisieren der Versionierung
+    - Anlegen DB
+    - Auswahl des CMS
+    - Download der n&ouml;tigen Packages
+    - Editieren der config -> Datenbankzugangsdaten
+    - Run Setup um das CMS zu installieren
+    - Setup local server
+    - Initial commit in der Versionierung
+
+- ####<a name="4.1.2"></a>4.1.2 Development:
+    - watch Prozesse
+    - Pr&auml;prozessoren
+    - Minifizierung/Vernk&uuml;pfen von Javascript durch Concat, Uglify und co
+    - CSS-Prefixing
+    - Bildanpassungen
+    - Fehler&uuml;berpr&uuml;fung
+    - Livetesting
+
+- ####<a name="4.1.3"></a>4.1.3 Deployment:
+    - Build Prozess
+    - Testing
+    - Deployment auf Testing, Staging, Production  
+    - Database Migration
+        - Datenbank-diff (UUID)
+        - Database upload
+	
 - Zielsetzung / Featurelist
 - Toolauswahl + Begr&uuml;ndung
 - Architektur Gesamtsystem
 - Konfigurationsbeschreibung Einzelkomponenten
 - Funktionsweise / Bedienung
 
-###<a name="6"></a>6. Anwendung der Toolchain in der Praxis
+###<a name="5"></a>5. Anwendung der Toolchain in der Praxis
 - Projektbeschreibung
 - Definition der Bewertungskriterien
 - Bewertung der Toolchain
 
-###<a name="7"></a>7. Ausblick
+###<a name="6"></a>6. Ausblick
 
 
 

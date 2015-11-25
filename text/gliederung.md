@@ -8,8 +8,8 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 
 ##Inhalt:
 0. [Einleitung](#0)
-1. [Anforderungsanalyse moderner Webprojekte](#1)
-    - [Projektarten](#1.1)
+1. [Anforderungsanalyse moderner Websiteprojekte](#1)
+    - [Definition "modernes Websiteprojekt"](#1.1)
     - [Organisatorisch](#1.2)
     - [Programmatisch](#1.3)
     - [Qualitativ](#1.4)
@@ -50,11 +50,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 
 ###<a name="1"></a>1. Anforderungsanalyse:
 
-####<a name="1.1"></a>1.1 Projektarten: 
-- Frontend
-- Backend
-- Backend (CMS) + Frontend
-- Backend (Framework) + Frontend
+####<a name="1.1"></a>1.1 Definition "modernes Websiteporjekt"
 
 ####<a name="1.2"></a>1.2 Organisatorische Anforderungen
 - Einzelner Entwickler vs Team

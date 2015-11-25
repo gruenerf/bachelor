@@ -50,7 +50,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
 
 ###<a name="1"></a>1. Anforderungsanalyse:
 
-####<a name="1.1"></a>1.1 Definition "modernes Websiteporjekt"
+####<a name="1.1"></a>1.1 Definition "modernes Websiteprojekt"
 
 ####<a name="1.2"></a>1.2 Organisatorische Anforderungen
 - Einzelner Entwickler vs Team

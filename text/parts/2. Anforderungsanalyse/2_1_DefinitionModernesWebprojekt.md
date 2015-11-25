@@ -48,8 +48,35 @@ Ebenso sollten Webseiten interaktiver werden .> hiersetzen  Javascript framework
  Bedeutet, dass mehr und mehr komplexität vom server über zum cliebnt ausgelagert wirdf
  
  web app development
- 
+ 1. html + less + sass + coffee script + ecterne bibs
+ 2. html + css + js + ecterne bibs
+ 3. html + minifizieren(css + js + externe bibs)
+ 4. testingLinting( html + css + js)
+ 5. Build Tool (html+css+js) -> liveReloading und watch prozesse
 
+webdesignledger (http://ashleynolan.co.uk/blog/frontend-tooling-survey-2015-results, Ashley Nolan ,12.10.2015):
 
+beliebtester Preprozessoren: LEss (15,19%) +sass (63,95%)
 
+knowing/using post processors: postcss 7,15%, rework 0,69%
+
+preferred task runner: Grunt is downloaded roughly 1.45 million times a month, with Gulp having 1.34 million
+    gulp (43,79%),grunt(27,56)
+    
+js libs/frameworks
+    Which JavaScript library or framework do you use on the majority of your projects?
+            jQuery (56,47), angular (17,88), underscore (1,27)
+  comfortable using  jQuery (91,4), Underscore (35,4%), AngularJS(29,1)
+  
+JavaScript Module Bundlers
+    Don´t use (53,9), browserify (16,47), requireJs (13,46)
+    
+JS-Testing
+    Don´ use (59,66), Jasmine(16,37%), Mocha(15,04)
+
+Tools:
+    using: bower(45,36), yeoman (19,97), npm (68,39), ender (0.54)
+    
+
+  
 

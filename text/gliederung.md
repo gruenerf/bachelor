@@ -59,11 +59,10 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten ge
     Feature Driven Development/Scrum
 
 ####<a name="1.3"></a>1.3 Programmatische Anforderungen
-- CMS vs. static content
+- CMS bzw. php inkl Datenbank vs. static content
 - JS Frameworks vs. plain JS
 - Sass/Less vs. Css
 - Minifizierung zu Rechen- und Speicheroptimierung
-- Datenbanken
 - Rollbacks erm&ouml;glichen
 - Durch Kundenorientierung bedingt: Unterschiedliche Previewumgebungen
 

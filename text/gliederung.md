@@ -1,10 +1,20 @@
 #Bachelorthesis
 
 ##Arbeitstitel:
+
+//old
 Anforderungsanalyse moderner PHP-basierter Websiteprojekte und die Erstellung einer auf diesen Anforderungen basierenden Toolchain zur Unterst&uuml;tzung des Entwicklungsworkflows
 
+//new
+Anforderungsanalyse agiler, nach SCRUM organisierter, php-basierter Websiteprojekte und die Erstellung einer auf diesen Anforderungen basierenden Toolchain zur Unterstützung des Entwicklungsworkflows
+
 ##Fragestellung:
+
+//old
 Mit Hilfe welcher Tools kann der Entwicklungsprozess in modernen Webprojekten gezielt unterst&uuml;tzt und begleitet werden?
+
+//new
+Mit Hilfe welcher Tools kann der Entwicklungsprozess in SCRUM Teams bei der Umsetzung von Webprojekten gezielt unterst&uuml;tzt und begleitet werden?
 
 ##Inhalt:
 0. [Einleitung](#0)

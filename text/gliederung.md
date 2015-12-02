@@ -18,8 +18,13 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in SCRUM Teams bei der Umse
 
 ##Inhalt:
 0. [Einleitung](#0)
-1. [Anforderungsanalyse moderner Websiteprojekte](#1)
-    - [Definition "modernes Websiteprojekt"](#1.1)
+1. 
+
+
+1. [Anforderungsanalyse mit SCRUM organisierter Websiteprojekte](#1)
+    - [Beschreibung SCRUM](#1.1)
+    - [SCRUM Rollen in bez. Webentwicklung]
+    - []
     - [Organisatorisch](#1.2)
     - [Programmatisch](#1.3)
     - [Qualitativ](#1.4)

@@ -88,7 +88,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in Scrum Teams bei der Umse
     - nachhaltiger Code
 ####<a name="1.4.4"></a>1.4.4 Daily Scrum (Burndown Chart)
 ####<a name="1.4.5"></a>1.4.5 Sprintabschluss
-    - Build
+    - Build / Deployment lauffähiger Prototyp auf Testumgebung
 ####<a name="1.4.6"></a>1.4.6 Nachbereitung
 
 

@@ -124,12 +124,14 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in Scrum Teams bei der Umse
 ###<a name="2.1"></a>2.1 Allgemeine Projekt Unterstützung (Scrum Tools)
     - Ticketing System: GitLab, Git Issues, Mantis, trello
     - Code-Versionierung: git,svn,mercurial     
-    - Scrum Tools: Vivify, flying donut, scrum wise, scrumdo. taiga
+    - Scrum Tools: Vivify, flying donut, scrum wise, scrumdo, taiga
 
 ###<a name="2.2"></a>2.2 Sprint Unterstützung
 ####<a name="2.2.1"></a>2.2.1 Sprint Entwicklung
     - Package manager: npm, bower, composer
     - Automatisierung: Grunt, Gulp, Codekit
+    - Entscheidung für CMS/PHP-Framework
+
 ####<a name="2.2.2"></a>2.2.2 Sprint Testing
     - Linting: Grunt, Gulp, Codekit
     - Testing:
@@ -146,6 +148,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in Scrum Teams bei der Umse
         - End-to-End-Testing:
             - Protractor
             - PhantomJS
+            
 ####<a name="2.2.3"></a>2.2.3 Sprint Build + Deploy
     - Datenbank-Migration: liquidbase
     - Continuous Deployment:
@@ -156,7 +159,6 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in Scrum Teams bei der Umse
 
 ##<a name="3"></a>3. Erstellung und Dokumentation einer unterstützenden Toolchain
 ###<a name="3.1"></a>3.1 IST-Analyse des Entwicklungsworkflows:
-
 ####<a name="3.1.1"></a>3.1.1 Projekterstellung:
     - Initialisieren der Versionierung
     - Anlegen DB
@@ -183,7 +185,6 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in Scrum Teams bei der Umse
     - Database Migration
         - Datenbank-diff (UUID)
         - Database upload
-
 - Zielsetzung / Featurelist
 - Toolauswahl + Begründung
 - Architektur Gesamtsystem

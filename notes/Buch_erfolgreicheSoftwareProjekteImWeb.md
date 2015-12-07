@@ -25,3 +25,34 @@
 
 53 Fünf augen und der Code (133ff)
   Automatisierung als fünftes Auge -> Simple Tasks wie einhalten der Formatierung, Softwaremetriken, syntaax fehlern, ob unit tests ausreichen
+
+58 Contiuous Integration (147ff)
+  Grundideen:
+    1. Kontinuierliches Bauen des Gesamtsystems
+    2. Frühzeitiges und regelmäßiges Einchecken in die versionsverwaltung
+
+    Das kontinuierliche Bauen von CI-Server übernommen -> um nach jedem Commit zu überprüfen ob das programmierte im Gesamtsystem funktioniert
+    Voraussetzung: hohe automatisierte Testabdeckung (wir  von Skriopten übernommen die Testresultate erzeugen)
+    Wenn tests gut geschrieben kann anhand des ergebnisses bestimmt werden ob system funktioniert
+    Kontinuierliches Schreiben von Tests
+    Hilft, dass entwickler eine Applikation nicht "kaputtprogrammieren" könen
+
+59 Wie automatisierte Tests den Verstand erweitern
+    Automatisierte Tests - primär Programmiertechnik und sekundär Qualitätssicherung
+    Entwerfen von Tests ist integraler Bestandteil des Kodierens (gleich wie eingreifen in Produktivcode)
+    In den Testcode werden informationen einprogrammiert und somit in verständliche,persistente Form gebracht, die Sonst nur im Kopp des Programmieres befinden
+
+60 Continous Testing
+    Anpassung des CI-Servers auf den eigenen Qualitätsanspruch. ZUmeist beginn mit der Ausführung voin Unittests
+    testarten:
+      Unittests: Überprüfen Codeebene auf korrektheit
+      Statische Codeanalyse: Erkennung Code-Smells, Softwaremetriken -> Wichtig, dass man Verstöße ignorieren kann (Da metriken nur indikatoren nicht aber fixe aussage sind)
+      Funktionale Tests: Simulation des Nutzers der sich durch das Angebot klickt, Überprüft korrekte Integration (Zusammenspiel der einzelnen Systemkomponenten)
+      Continuous Performace: Geschwindigkeitstests (zB. Abfrage URL -> Antwortzeit)
+      Syntaktische Prüfung: Sollte in Versiosverwaltung integriert werden, da es keinen Compiler gibt der den fehlerhaften Code frühzeitig erkennt -> Saher gefahr, dass es in Produktion landet
+
+      Problem an vielen Tests ist, dass wenn alle ausgeführt werden -> zeitraubend
+      Daher abhängigkeit:
+        Erst syntaktische korrektheit
+        (-> sonst failen) Unit tests
+        (-> sonst failen) funktionale Tests

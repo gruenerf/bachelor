@@ -1,3 +1,15 @@
+1 Scrum löst eure Probleme nicht
+    //TODO
+           
+4 Klassisches Vorgehen
+    //TODO
+        
+8 Scrum- man muss nicht alles verstehen
+    //TODO
+    
+10 Das agile Manifest
+    //TODO
+    
 28  Test Driven Development
     - schreiben der Tests bereits im Vorfeld (S.79)
     - dann durchführen der Unittests

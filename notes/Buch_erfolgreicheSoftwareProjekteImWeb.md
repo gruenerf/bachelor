@@ -1,14 +1,32 @@
 1 Scrum löst eure Probleme nicht
-    //TODO
+    Scrum erwartet von Product owner die einzelnen Feature zu Bewerten und anhand der bewertung zu priorisieren
+    -> dadurch weiß das Team genau was als nächstes umzusetzen ist
+    Scrum behebt das Problem nicht, dass es schwer ist punkte zu priorisieren, sondern es "zwingt" uns dazu das projekt besser zu verstehen
+    Der Product owner muss sich diese gedanken machen und sich mit stakeholdern abstimmen -> permanentes reflektieren
+    -> Strukturierteres Projekt
+    Burndown chart im Sprint visualisiert den Fortschritt -> zeigt entwicklern auf wann sie hinterherhinken und wann gut sind
+    -> werkzeug um Probleme aufzuzeigen nicht aber zu lösen
            
 4 Klassisches Vorgehen
-    //TODO
-        
+    Abschluss eines Projektes durch strukturiertes Abarbeiten der anfallenden Aufgaben. Optimierung durch konkrete Vorgehensmodelle:
+    Früher: vmodell, wasserfallmodell
+    heute: agile techniken
+    Probleme mit alten Methoden: sind nciht auf schnellebiges internetbusiness ausgelegt, da zu starr
+        änderungen sind nicht geplant (alles vorher definiert) doch features werden konstant weiterentwickelt
+    Abschlusshektik kann so vermieden werden
+           
 8 Scrum- man muss nicht alles verstehen
-    //TODO
+    Im webumfeld ist es schwer von beginn an alles zu spezifizieren, da der kunde oft nicht weiß was er überhaupt will
+    Definition und abgeschlossenes Projekt sind oft komplett unterschiedlich
+    Bei scrum versucht man daher features erst spät festzulegen/konkretisierenn. durch die iterationen hat man auslieferbare produkte
+    falls das budget nicht reicht können gewisse features nicht umgesetzt werden man hat aber dennoch ein ausliegerbares prdukt
+    schätzungen ohne personentage
+        Schötzung über story points. Was diese bedeuten wird in der praxis meist nach 3 sprints berechnet -> führt zu präzisen schätzungen
+    selbstbestimmung des teams:
+        Sprintplanung- in ersten 2 sprints über- und unterschätzen sich die teams jeweils. pendelt sich beim 33. sprint ein
     
 10 Das agile Manifest
-    //TODO
+    Februas 2001 17 kulge köpfe (kent back, martin fowler, alistair cockburn, ken schwaber) 
     
 28  Test Driven Development
     - schreiben der Tests bereits im Vorfeld (S.79)

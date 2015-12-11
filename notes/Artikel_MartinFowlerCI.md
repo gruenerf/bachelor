@@ -75,6 +75,12 @@ Praktiken CI:
         Um CI benutzen zu können bedarf es meherer Umgebungen, eine um Commit Tests laufen zu lassen und eine um sekundäre tests auszuführen. Da man Code mhermals pro tag zwischen diesen Servern hin ud gerschiebt möchtee man das automatisieren. Das bedeutet es müssen skripts existiere welche diese aufgabe automatisieren
         Gleiche scripts auch für deploy in production. Dann aber ergänzt durch evtl rollbacjks
         
-Nutezn von CI:
+Nutzen von CI:
+    Reduzierte Risiken, durch vermeiden unklarer langer Integrationszeiten
+    Bugs werden früher erkannt und einfacher entfernbar gemacht (wirkt dem ansammeln von bugs entegenm die es schwer machen die gesamtheit aller bugs zu entfernen)
+    CI ermöglicht häufiges deployment -> da die hürden nicht mehr wirklich vorhanden sind
+    
+Einführung von CI
+    automatisieren des builds, alle files in SCM, ergänzen durch automatisierte tests, beschleunigen des commit builds
     
         

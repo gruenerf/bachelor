@@ -82,7 +82,6 @@ Da die meisten Projekte auf einer Datenbank aufbauen ist es natürlich auch wich
 
 {{ Versionierung }}
 ###Kriterien:
-Geeignete Teamgröße
 Unterstützung mehrere Branches
 Nutzeranzahl
 Geschwindigkeit

@@ -15,7 +15,7 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in Scrum Teams bei der Umse
     - [Ziele Scrumprojekt](#1.2)
     - [Scrum-Rollen](#1.3)
       - [Product-Owner](#1.3.1)
-      - [Scrum-Master   ](#1.3.2)
+      - [Scrum-Master](#1.3.2)
       - [Scrum-Team](#1.3.3)
     - [Scrum-Prozesse](#1.4)
       - [Erstellung Product Backlog](#1.4.1)
@@ -24,12 +24,14 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in Scrum Teams bei der Umse
       - [Daily Scrum (Burndown Chart)](#1.4.4)
       - [Sprintabschluss](#1.4.5)
       - [Nachbereitung](#1.4.6)
+    - [Zusammenfassung](#1.5)    
 2. [Tools zur Unterstützung des Workflows (Vor- und Nachteile)](#2)
-    - [Allgemeine Projekt Unterstützung (Scrum Tools)](#2.1)
-    - [Sprint Unterstützung](#2.2)
+    - [Allgemeine Projektunterstützung (Scrum Tools)](#2.1)
+    - [Sprint-Unterstützung](#2.2)
       - [Entwickler](#2.2.1)
       - [Testing](#2.2.2)
       - [Build + Deploy](#2.2.3)
+    - [Zusammenfassung](#2.3) 
 3. [Erstellung und Dokumentation der Toolchain](#3)
     - [IST-Analyse des Entwicklungsworkflows](#3.1)
         - [Projekterstellung](#3.1.1)
@@ -40,10 +42,12 @@ Mit Hilfe welcher Tools kann der Entwicklungsprozess in Scrum Teams bei der Umse
     - Architektur Gesamtsystem
     - Konfigurationsbeschreibung Einzelkomponenten
     - Funktionsweise / Bedienung
+  - [Zusammenfassung](#4.6) 
 4. [Anwendung der Toolchain in der Praxis -> Evaluation](#4)
     - Projektbeschreibung
     - Definition der Bewertungskriterien
     - Bewertung der Toolchain
+  - [Zusammenfassung](#4.4) 
 5. [Ausblick](#5)
 
 

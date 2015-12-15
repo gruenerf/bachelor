@@ -1,0 +1,2 @@
+Wie in der Einleitung bereits angedeutet fordern moderne Websiteprojekte moderne Entwicklungsmethoden. Aber was bedeutet das konkret?
+Die Anforderungen lassen sich in 3 Gruppen unterteilen. Zum einen natürlich die programmatischen Anforderungen, welche die Art Code zu schreiben und damit die sprachlichen Neuerungen umfasst, zum anderen die qualitativen Anforderungen, bei denen die Codequalität im Mittelpunkt steht und abschließend organisatorische Anforderungen, welche sich primär mit der Zusammenarbeit innerhalb eines Teams befasst.
